@@ -1,341 +1,715 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Nourhene Zarrad | DevOps & Cloud</title>
+    <title>Nourhene Zarrad | DevOps & Cloud Engineer</title>
 
     <meta name="description"
-        content="Portfolio de Nourhene Zarrad, spécialisée en DevOps, Cloud, CI/CD, Docker, Jenkins et Linux.">
+          content="Portfolio of Nourhene Zarrad - DevOps & Cloud Engineer specializing in CI/CD, Docker, Jenkins, Linux and Cloud technologies.">
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
+
 <body>
 
-    <!-- NAVBAR -->
-    <header>
-        <nav>
-            <h2 class="logo">Nourhene Zarrad</h2>
 
-            <ul>
-                <li><a href="#home">Accueil</a></li>
-                <li><a href="#about">À propos</a></li>
-                <li><a href="#skills">Compétences</a></li>
-                <li><a href="#projects">Projets</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<!-- ================= HEADER ================= -->
+
+<header class="main-header">
+
+    <div class="container header-content">
+
+        <h1>Nourhene Zarrad</h1>
+
+        <p>
+            DevOps & Cloud Engineer
+            <span>|</span>
+            CI/CD
+            <span>|</span>
+            Cloud Infrastructure
+        </p>
 
 
-    <!-- HERO -->
-    <section id="home">
+        <div class="social-links">
 
-        <div class="hero-content">
+            <!-- LINKEDIN -->
+            <a href="#"
+               target="_blank"
+               title="LinkedIn">
 
-            <p class="hello">Bonjour, je suis</p>
+                <i class="fab fa-linkedin-in"></i>
 
-            <h1>Nourhene Zarrad</h1>
+            </a>
 
-            <h2>DevOps & Cloud Engineer</h2>
 
-            <p class="hero-description">
-                Passionnée par les environnements DevOps et Cloud,
-                je m'intéresse particulièrement à l'automatisation,
-                aux pipelines CI/CD, à la conteneurisation et au
-                déploiement d'applications.
-            </p>
+            <!-- GITHUB -->
+            <a href="https://github.com/nourhene97zarrad-stack"
+               target="_blank"
+               title="GitHub">
 
-            <div class="hero-buttons">
+                <i class="fab fa-github"></i>
 
-                <a href="#projects" class="btn primary">
-                    Voir mes projets
-                </a>
+            </a>
+
+
+            <!-- EMAIL -->
+            <a href="mailto:your-email@example.com"
+               title="Email">
+
+                <i class="fas fa-envelope"></i>
+
+            </a>
+
+
+            <!-- CV -->
+            <a href="cv/nourhene-zarrad-cv.pdf"
+               target="_blank"
+               title="View CV">
+
+                <i class="fas fa-file-arrow-down"></i>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+
+<!-- ================= NAVIGATION ================= -->
+
+<nav class="navbar">
+
+    <div class="container">
+
+        <ul>
+
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+
+        </ul>
+
+    </div>
+
+</nav>
+
+
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="section">
+
+    <div class="container">
+
+        <h2>About Me</h2>
+
+        <div class="title-line"></div>
+
+
+        <div class="about-content">
+
+
+            <!-- PROFILE IMAGE -->
+
+            <div class="profile-wrapper">
+
+                <img src="images/profile.jpg"
+                     alt="Nourhene Zarrad"
+                     class="profile-photo">
+
+            </div>
+
+
+
+            <!-- ABOUT TEXT -->
+
+            <div class="about-text">
+
+                <h3>
+                    DevOps & Cloud enthusiast focused on automation
+                    and modern infrastructure.
+                </h3>
+
+
+                <p>
+                    I am passionate about
+                    <strong>DevOps, Cloud Computing and infrastructure automation</strong>.
+                    My main interests include building CI/CD pipelines,
+                    containerizing applications and improving deployment
+                    processes.
+                </p>
+
+
+                <p>
+                    I work with technologies such as
+                    <strong>Docker, Jenkins, Git, GitHub and Linux</strong>
+                    to automate software delivery and create reliable
+                    development environments.
+                </p>
+
+
+                <p>
+                    My background in web development also gives me
+                    a strong understanding of the complete application
+                    lifecycle, from development to deployment and
+                    production.
+                </p>
+
 
                 <a href="cv/nourhene-zarrad-cv.pdf"
                    target="_blank"
-                   class="btn secondary">
-                    Voir mon CV
+                   class="btn">
+
+                    <i class="fas fa-file-arrow-down"></i>
+                    View My CV
+
                 </a>
 
             </div>
 
         </div>
 
-        <div class="hero-image">
-            <img src="images/profile.jpg" alt="Nourhene Zarrad">
+    </div>
+
+</section>
+
+
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects" class="section section-light">
+
+    <div class="container">
+
+        <h2>My Projects</h2>
+
+        <div class="title-line"></div>
+
+        <p class="section-intro">
+            Selected projects demonstrating my experience
+            in DevOps, Cloud, automation and application deployment.
+        </p>
+
+
+
+        <div class="projects-grid">
+
+
+            <!-- PROJECT 1 -->
+
+            <div class="project-card">
+
+                <div class="project-image">
+
+                    <img src="images/devops-project.png"
+                         alt="DevOps CI/CD Pipeline">
+
+                </div>
+
+
+                <div class="project-card-content">
+
+                    <span class="project-category">
+                        DEVOPS
+                    </span>
+
+                    <h3>
+                        CI/CD Automation Pipeline
+                    </h3>
+
+
+                    <p>
+                        Implementation of a continuous integration and
+                        deployment pipeline designed to automate application
+                        build, testing and deployment processes.
+                    </p>
+
+
+                    <div class="tech-tags">
+
+                        <span>Jenkins</span>
+                        <span>Docker</span>
+                        <span>Git</span>
+                        <span>GitHub</span>
+                        <span>Linux</span>
+
+                    </div>
+
+
+                    <div class="project-buttons">
+
+                        <a href="#"
+                           target="_blank"
+                           class="btn">
+
+                            <i class="fab fa-github"></i>
+                            GitHub
+
+                        </a>
+
+                        <a href="#"
+                           class="btn btn-secondary">
+
+                            Details
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- PROJECT 2 -->
+
+            <div class="project-card">
+
+                <div class="project-image">
+
+                    <img src="images/pfe-project.png"
+                         alt="DevOps Cloud PFE Project">
+
+                </div>
+
+
+                <div class="project-card-content">
+
+                    <span class="project-category">
+                        DEVOPS / CLOUD
+                    </span>
+
+
+                    <h3>
+                        Final Year Project
+                    </h3>
+
+
+                    <p>
+                        DevOps-oriented project focused on automation,
+                        application deployment and the management of
+                        modern infrastructure environments.
+                    </p>
+
+
+                    <div class="tech-tags">
+
+                        <span>DevOps</span>
+                        <span>Cloud</span>
+                        <span>CI/CD</span>
+                        <span>Linux</span>
+
+                    </div>
+
+
+                    <div class="project-buttons">
+
+                        <a href="#"
+                           target="_blank"
+                           class="btn">
+
+                            Project Details
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- PROJECT 3 -->
+
+            <div class="project-card">
+
+                <div class="project-image">
+
+                    <img src="images/chez-zarrad.png"
+                         alt="Chez Zarrad E-commerce">
+
+                </div>
+
+
+                <div class="project-card-content">
+
+                    <span class="project-category">
+                        WEB / INFRASTRUCTURE
+                    </span>
+
+
+                    <h3>
+                        Chez Zarrad
+                    </h3>
+
+
+                    <p>
+                        Administration and optimization of an e-commerce
+                        platform including website performance,
+                        configuration, maintenance and deployment.
+                    </p>
+
+
+                    <div class="tech-tags">
+
+                        <span>WordPress</span>
+                        <span>WooCommerce</span>
+                        <span>PHP</span>
+                        <span>Linux</span>
+
+                    </div>
+
+
+                    <div class="project-buttons">
+
+                        <a href="https://chez-zarrad.com/"
+                           target="_blank"
+                           class="btn">
+
+                            Visit Website
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
         </div>
 
-    </section>
+    </div>
+
+</section>
 
 
-    <!-- ABOUT -->
-    <section id="about">
 
-        <h2>À propos de moi</h2>
+<!-- ================= SKILLS ================= -->
 
-        <p>
-            Je suis spécialisée dans les environnements
-            <strong>DevOps et Cloud</strong>, avec un intérêt particulier
-            pour l'automatisation des processus de développement et de
-            déploiement.
-        </p>
+<section id="skills" class="section">
 
-        <p>
-            Je travaille notamment avec des technologies comme
-            Docker, Jenkins, Git, Linux et les pipelines CI/CD
-            afin de faciliter l'intégration, le déploiement et
-            la gestion des applications.
-        </p>
+    <div class="container">
 
-        <p>
-            Je possède également des compétences en développement web,
-            ce qui me permet de mieux comprendre l'ensemble du cycle de vie
-            d'une application, du développement jusqu'à son déploiement.
-        </p>
+        <h2>Technical Skillset</h2>
 
-    </section>
+        <div class="title-line"></div>
 
 
-    <!-- SKILLS -->
-    <section id="skills">
-
-        <h2>Mes compétences</h2>
-
-        <p class="section-description">
-            Technologies et outils que j'utilise dans mes projets.
-        </p>
-
-        <div class="skills">
+        <div class="skills-grid">
 
 
             <!-- DEVOPS -->
-            <div class="skill-card">
 
-                <h3>DevOps & CI/CD</h3>
+            <div class="skill-column">
 
-                <p>Docker</p>
-                <p>Jenkins</p>
-                <p>CI/CD</p>
-                <p>Git</p>
-                <p>GitHub</p>
+                <div class="skill-icon">
+
+                    <i class="fas fa-gears"></i>
+
+                </div>
+
+
+                <h3>
+                    DevOps & CI/CD
+                </h3>
+
+
+                <ul>
+
+                    <li>Docker</li>
+
+                    <li>Jenkins</li>
+
+                    <li>CI/CD Pipelines</li>
+
+                    <li>Git</li>
+
+                    <li>GitHub</li>
+
+                    <li>Automation</li>
+
+                </ul>
 
             </div>
+
 
 
             <!-- CLOUD -->
-            <div class="skill-card">
 
-                <h3>Cloud & Systèmes</h3>
+            <div class="skill-column">
 
-                <p>Cloud Computing</p>
-                <p>Linux</p>
-                <p>Administration système</p>
-                <p>Déploiement</p>
-                <p>Environnements Cloud</p>
+                <div class="skill-icon">
+
+                    <i class="fas fa-cloud"></i>
+
+                </div>
+
+
+                <h3>
+                    Cloud & Systems
+                </h3>
+
+
+                <ul>
+
+                    <li>Cloud Computing</li>
+
+                    <li>Linux</li>
+
+                    <li>System Administration</li>
+
+                    <li>Application Deployment</li>
+
+                    <li>Infrastructure</li>
+
+                    <li>Server Management</li>
+
+                </ul>
 
             </div>
+
 
 
             <!-- DEVELOPMENT -->
-            <div class="skill-card">
 
-                <h3>Développement</h3>
+            <div class="skill-column">
 
-                <p>PHP</p>
-                <p>MySQL</p>
-                <p>HTML</p>
-                <p>CSS</p>
-                <p>JavaScript</p>
+                <div class="skill-icon">
 
-            </div>
-
-
-            <!-- WEB -->
-            <div class="skill-card">
-
-                <h3>Web & CMS</h3>
-
-                <p>WordPress</p>
-                <p>WooCommerce</p>
-                <p>Elementor</p>
-                <p>SEO</p>
-                <p>Optimisation Web</p>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- PROJECTS -->
-    <section id="projects">
-
-        <h2>Mes projets</h2>
-
-        <p class="section-description">
-            Quelques projets illustrant mes compétences techniques,
-            principalement en DevOps et Cloud.
-        </p>
-
-
-        <div class="projects-container">
-
-
-            <!-- DEVOPS PROJECT -->
-            <div class="project">
-
-                <img src="images/devops-project.png"
-                     alt="Projet DevOps CI/CD">
-
-                <div class="project-content">
-
-                    <span class="project-type">
-                        DevOps
-                    </span>
-
-                    <h3>Pipeline CI/CD</h3>
-
-                    <p>
-                        Mise en place d'un processus d'intégration
-                        et de déploiement continu permettant
-                        d'automatiser les différentes étapes du
-                        cycle de développement d'une application.
-                    </p>
-
-                    <div class="technologies">
-                        Jenkins • Docker • Git • GitHub • Linux
-                    </div>
-
-                    <a href="#" class="project-link">
-                        Voir le projet sur GitHub →
-                    </a>
+                    <i class="fas fa-code"></i>
 
                 </div>
 
-            </div>
+
+                <h3>
+                    Development
+                </h3>
 
 
-            <!-- PFE -->
-            <div class="project">
+                <ul>
 
-                <img src="images/pfe-project.png"
-                     alt="Projet de fin d'études">
+                    <li>PHP</li>
 
-                <div class="project-content">
+                    <li>MySQL</li>
 
-                    <span class="project-type">
-                        DevOps / Cloud
-                    </span>
+                    <li>HTML</li>
 
-                    <h3>Projet de Fin d'Études</h3>
+                    <li>CSS</li>
 
-                    <p>
-                        Projet orienté DevOps permettant de mettre
-                        en pratique l'automatisation, le déploiement
-                        et la gestion d'environnements applicatifs.
-                    </p>
+                    <li>JavaScript</li>
 
-                    <div class="technologies">
-                        DevOps • Cloud • CI/CD • Linux
-                    </div>
+                    <li>WordPress</li>
 
-                    <a href="#" class="project-link">
-                        Voir le projet →
-                    </a>
-
-                </div>
-
-            </div>
-
-
-            <!-- CHEZ ZARRAD -->
-            <div class="project">
-
-                <img src="images/chez-zarrad.png"
-                     alt="Projet Chez Zarrad">
-
-                <div class="project-content">
-
-                    <span class="project-type">
-                        Web
-                    </span>
-
-                    <h3>Chez Zarrad</h3>
-
-                    <p>
-                        Gestion et optimisation d'une plateforme
-                        e-commerce WordPress avec WooCommerce,
-                        incluant l'amélioration des performances,
-                        du référencement et de l'environnement web.
-                    </p>
-
-                    <div class="technologies">
-                        WordPress • WooCommerce • PHP • SEO
-                    </div>
-
-                    <a href="https://chez-zarrad.com/"
-                       target="_blank"
-                       class="project-link">
-                        Voir le site →
-                    </a>
-
-                </div>
+                </ul>
 
             </div>
 
 
         </div>
 
-    </section>
+    </div>
+
+</section>
 
 
-    <!-- CONTACT -->
-    <section id="contact">
 
-        <h2>Contact</h2>
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="section section-light">
+
+    <div class="container">
+
+        <h2>Let's Connect</h2>
+
+        <div class="title-line"></div>
+
+
+        <div class="contact-container">
+
+
+            <div class="contact-text">
+
+                <h3>
+                    Interested in working together?
+                </h3>
+
+                <p>
+                    I am open to opportunities in DevOps,
+                    Cloud Engineering and infrastructure automation.
+                    Feel free to contact me.
+                </p>
+
+
+                <div class="contact-info">
+
+                    <p>
+
+                        <i class="fas fa-envelope"></i>
+
+                        your-email@example.com
+
+                    </p>
+
+
+                    <p>
+
+                        <i class="fab fa-github"></i>
+
+                        github.com/nourhene97zarrad-stack
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- FORM -->
+
+            <form
+                action="https://formsubmit.co/your-email@example.com"
+                method="POST"
+                class="contact-form">
+
+
+                <div class="form-group">
+
+                    <label for="name">
+                        Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Your name"
+                        required>
+
+                </div>
+
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Your email"
+                        required>
+
+                </div>
+
+
+
+                <div class="form-group">
+
+                    <label for="subject">
+                        Subject
+                    </label>
+
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        placeholder="Subject"
+                        required>
+
+                </div>
+
+
+
+                <div class="form-group">
+
+                    <label for="message">
+                        Message
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Your message"
+                        required></textarea>
+
+                </div>
+
+
+
+                <button type="submit"
+                        class="btn">
+
+                    Send Message
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="container">
 
         <p>
-            Vous souhaitez échanger concernant une opportunité
-            DevOps, Cloud ou Infrastructure ?
+            © 2026 Nourhene Zarrad.
+            DevOps & Cloud Portfolio.
         </p>
 
-        <div class="contact-links">
+    </div>
 
-            <a href="mailto:tonemail@example.com">
-                Email
-            </a>
-
-            <a href="#"
-               target="_blank">
-                LinkedIn
-            </a>
-
-            <a href="#"
-               target="_blank">
-                GitHub
-            </a>
-
-        </div>
-
-    </section>
+</footer>
 
 
-    <!-- FOOTER -->
-    <footer>
-
-        <p>
-            © 2026 Nourhene Zarrad — DevOps & Cloud
-        </p>
-
-    </footer>
-
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
 
 </body>
 
